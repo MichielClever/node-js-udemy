@@ -33,7 +33,7 @@ if(command === "add"){
     notes.getAll();
     
 }else if(command === "read"){
-    
+    debugger;
     var note = notes.getNote(argv.title);
     
     if(note){
